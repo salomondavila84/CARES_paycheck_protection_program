@@ -1,0 +1,62 @@
+graphic
+Hawaii Congressional District 1  
+13,995 Small Employer Businesses  166,659 Small Business Employees  $7.2 billion Small Business Payroll  
+94.4%  of Employer Businesses  52.0%  of Employees  47.9%  of Payroll  
+
+graphic
+graphic
+Other Services (except Public Administration)  1,839  97.6  14,414  81.2  473,283  85.3  
+Professional, Scientific, and Technical Services  1,802  94.7  12,513  76.3  868,768  76.4  
+Health Care and Social Assistance  1,759  97.7  19,582  43.4  885,764  35.2  
+Accommodation and Food Services  1,618  96.5  28,325  50.8  629,042  40.8  
+Retail Trade  1,359  88.0  13,868  34.2  442,405  36.9  
+Construction  1,303  97.1  17,312  75.9  1,219,688  71.9  
+Wholesale Trade  918  89.7  10,232  69.6  496,014  64.3  
+Real Estate and Rental and Leasing  880  94.8  4,897  72.1  255,672  69.1  
+Administrative, Support, and Waste Management  761  90.7  12,445  57.1  450,553  59.1  
+Finance and Insurance  446  81.1  5,525  35.0  389,926  35.1  
+Manufacturing  395  95.0  7,016  73.8  274,189  64.4  
+Transportation and Warehousing  333  84.5  7,235  32.0  307,025  24.3  
+Educational Services  280  94.3  5,616  49.0  182,607  39.5  
+Arts, Entertainment, and Recreation  183  95.8  4,412  83.2  107,480  89.4  
+Information  164  79.6  1,559  25.2  84,255  21.0  
+Management of Companies and Enterprises  90  55.9  1,385  24.6  86,951  19.7  
+Industries not classified  28  100.0  52  100.0  1,827  100.0  
+Agriculture, Forestry, Fishing and Hunting  14  100.0  21  100.0  897  100.0  
+Utilities  4  50.0  - - - - 
+Mining, Quarrying, and Oil and Gas Extraction  3  100.0  30  100.0  1,471  100.0  
+District Total  13,995  94.4  166,659  52.0  7,178,741  47.9  
+
+This small business profile incorporates statisticson self-employment and small employerbusinesses from the 2017 American Community Survey (ACS) and the 2016 Statistics of US Businesses (SUSB), respectively. Small businesses are defined for this profile as firms employing fewer than 500 employees. District lines reflect the 115th Congress. For more information, please visit http://advocacy.sba.gov. 
+graphic
+graphic
+graphic
+Employer Businesses Employment Payroll ($1,000) 
+Industry (Ranked by Small Employer Businesses) 
+Small % Small % Small % 
+Construction  1,492  99.7  10,577  99.3  623,401  99.2  
+Accommodation and Food Services  1,303  96.0  25,786  49.4  591,576  36.4  
+Retail Trade  1,245  91.4  12,545  41.7  382,102  43.7  
+Other Services (except Public Administration)  1,244  98.4  6,992  89.7  208,663  90.5  
+Health Care and Social Assistance  1,107  96.9  14,153  54.6  591,952  47.5  
+Professional, Scientific, and Technical Services  1,003  96.0  4,016  68.4  214,090  61.7  
+Administrative, Support, and Waste Management  742  94.8  8,177  65.8  236,343  60.4  
+Real Estate and Rental and Leasing  684  96.5  3,284  63.8  138,905  61.7  
+Wholesale Trade  376  91.3  3,361  76.7  142,821  68.7  
+Manufacturing  340  98.3  3,032  85.7  114,721  81.9  
+Transportation and Warehousing  327  93.4  4,309  57.2  157,890  56.0  
+Arts, Entertainment, and Recreation  291  97.7  4,803  79.1  131,537  78.4  
+Finance and Insurance  217  85.4  1,524  52.4  68,625  46.9  
+Educational Services  195  96.5  3,084  47.7  95,574  58.5  
+Information  93  83.8  500  27.2  22,111  23.0  
+Management of Companies and Enterprises  29  76.3  486  63.9  26,754  63.9  
+Industries not classified  20  100.0  43  100.0  671  100.0  
+Agriculture, Forestry, Fishing and Hunting  19  100.0  130  100.0  3,886  100.0  
+Utilities  15  71.4  366  25.1  31,273  21.6  
+Mining, Quarrying, and Oil and Gas Extraction  4  100.0  146  100.0  11,844  100.0  
+District Total  10,662  96.3  107,314  57.9  3,794,739  54.4  
+
+This small business profile incorporates statisticson self-employment and small employerbusinesses from the 2017 American Community Survey (ACS) and the 2016 Statistics of US Businesses (SUSB), respectively. Small businesses are defined for this profile as firms employing fewer than 500 employees. District lines reflect the 115th Congress. For more information, please visit http://advocacy.sba.gov. 
+
+
+

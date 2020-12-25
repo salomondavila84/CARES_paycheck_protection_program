@@ -1,0 +1,191 @@
+graphic
+graphic
+graphic
+Retail Trade  1,613  87.0  12,833  33.0  387,412  39.9  
+Other Services (except Public Administration)  1,520  97.7  11,096  90.4  252,459  86.8  
+Professional, Scientific, and Technical Services  1,275  95.8  8,688  70.2  462,609  61.8  
+Construction  1,238  98.1  11,403  70.5  536,631  71.0  
+Health Care and Social Assistance  1,014  93.9  15,604  49.4  671,531  49.6  
+Accommodation and Food Services  897  92.7  16,928  55.3  271,898  55.8  
+Administrative, Support, and Waste Management  629  90.2  7,564  47.2  225,061  47.3  
+Wholesale Trade  628  82.4  6,519  67.9  333,690  66.3  
+Real Estate and Rental and Leasing  610  91.7  2,674  57.5  104,064  57.8  
+Finance and Insurance  517  84.9  3,668  45.5  200,863  36.1  
+Manufacturing  456  86.4  9,250  32.8  439,120  24.7  
+Transportation and Warehousing  377  82.1  4,361  46.9  179,171  42.2  
+Arts, Entertainment, and Recreation  185  96.9  2,189  72.9  41,302  86.3  
+Agriculture, Forestry, Fishing and Hunting  130  97.0  1,028  95.3  38,328  90.5  
+Educational Services  126  91.3  2,804  53.1  75,777  51.5  
+Information  99  76.2  1,115  28.5  56,436  25.5  
+Management of Companies and Enterprises  44  50.6  748  21.9  52,304  17.9  
+Mining, Quarrying, and Oil and Gas Extraction  28  73.7  481  83.5  25,556  72.3  
+Industries not classified  21  100.0  35  100.0  490  100.0  
+Utilities  20  69.0  408  24.3  26,201  19.0  
+District Total  11,362  92.1  119,396  50.4  4,380,903  46.4  
+
+This small business profile incorporates statisticson self-employment and small employerbusinesses from the 2017 American Community Survey (ACS) and the 2016 Statistics of US Businesses (SUSB), respectively. Small businesses are defined for this profile as firms employing fewer than 500 employees. District lines reflect the 115th Congress. For more information, please visit http://advocacy.sba.gov. 
+graphic
+graphic
+graphic
+Other Services (except Public Administration)  1,540  98.5  10,112  93.8  255,797  92.8  
+Retail Trade  1,505  89.9  13,291  39.3  413,851  47.4  
+Health Care and Social Assistance  1,172  94.1  19,018  52.0  834,185  50.3  
+Professional, Scientific, and Technical Services  1,053  95.1  6,512  68.9  413,445  66.6  
+Construction  1,005  98.8  8,811  94.8  395,216  93.9  
+Accommodation and Food Services  885  91.4  14,651  58.2  199,610  55.4  
+Wholesale Trade  473  81.8  6,672  65.2  310,191  61.8  
+Administrative, Support, and Waste Management  458  87.4  5,398  43.5  148,110  41.9  
+Finance and Insurance  422  82.9  3,891  48.6  210,737  45.0  
+Manufacturing  421  86.6  11,315  40.8  446,419  36.9  
+Real Estate and Rental and Leasing  412  92.8  1,814  67.1  58,171  59.6  
+Transportation and Warehousing  355  87.9  4,385  37.6  166,860  27.8  
+Agriculture, Forestry, Fishing and Hunting  162  97.6  1,311  71.6  50,643  71.8  
+Arts, Entertainment, and Recreation  145  96.7  1,496  48.5  27,620  42.6  
+Educational Services  115  92.0  2,609  68.1  69,098  60.8  
+Information  97  72.9  1,158  36.8  45,580  32.0  
+Management of Companies and Enterprises  42  60.9  444  19.2  33,149  22.0  
+Industries not classified  29  100.0  68  100.0  997  100.0  
+Utilities  19  76.0  529  18.1  37,445  13.6  
+Mining, Quarrying, and Oil and Gas Extraction  13  92.9  159  75.4  7,867  78.5  
+District Total  10,227  92.7  113,644  52.8  4,124,991  49.9  
+
+This small business profile incorporates statisticson self-employment and small employerbusinesses from the 2017 American Community Survey (ACS) and the 2016 Statistics of US Businesses (SUSB), respectively. Small businesses are defined for this profile as firms employing fewer than 500 employees. District lines reflect the 115th Congress. For more information, please visit http://advocacy.sba.gov. 
+graphic
+graphic
+graphic
+Retail Trade  1,342  89.9  10,156  34.2  274,649  39.1  
+Other Services (except Public Administration)  1,314  98.9  7,419  93.7  157,527  92.3  
+Construction  915  99.2  6,872  98.3  305,920  98.4  
+Health Care and Social Assistance  890  92.7  12,212  46.6  434,347  41.5  
+Accommodation and Food Services  809  92.0  13,556  58.5  174,628  55.7  
+Professional, Scientific, and Technical Services  746  95.4  3,979  75.9  158,785  77.6  
+Administrative, Support, and Waste Management  431  90.0  4,646  36.4  133,483  40.5  
+Manufacturing  431  83.4  14,401  37.0  583,906  30.8  
+Real Estate and Rental and Leasing  340  92.6  1,670  81.7  55,449  79.6  
+Wholesale Trade  334  86.1  4,077  67.2  200,383  73.1  
+Finance and Insurance  316  83.6  2,569  57.2  112,707  52.3  
+Transportation and Warehousing  273  89.8  2,879  44.6  103,476  40.6  
+Agriculture, Forestry, Fishing and Hunting  135  100.0  670  100.0  26,791  100.0  
+Arts, Entertainment, and Recreation  82  92.1  918  71.1  19,765  73.1  
+Educational Services  81  96.4  1,154  36.9  25,346  31.9  
+Information  64  72.7  833  40.7  32,773  34.2  
+Management of Companies and Enterprises  29  65.9  376  76.9  21,765  83.8  
+Industries not classified  21  100.0  30  100.0  514  100.0  
+Utilities  13  68.4  390  39.6  23,745  33.2  
+Mining, Quarrying, and Oil and Gas Extraction  4  40.0  37  7.4  1,484  4.6  
+District Total  8,512  92.9  88,844  49.6  2,847,443  46.3  
+
+This small business profile incorporates statisticson self-employment and small employerbusinesses from the 2017 American Community Survey (ACS) and the 2016 Statistics of US Businesses (SUSB), respectively. Small businesses are defined for this profile as firms employing fewer than 500 employees. District lines reflect the 115th Congress. For more information, please visit http://advocacy.sba.gov. 
+graphic
+graphic
+graphic
+Retail Trade  1,672  93.3  13,315  45.9  370,213  51.3  
+Other Services (except Public Administration)  1,359  98.5  7,197  90.3  155,823  87.2  
+Health Care and Social Assistance  1,122  94.8  16,062  53.5  633,105  53.6  
+Construction  868  99.2  6,915  96.1  280,188  95.7  
+Accommodation and Food Services  771  93.8  11,053  59.2  148,275  59.1  
+Professional, Scientific, and Technical Services  758  97.7  3,351  89.7  137,855  90.0  
+Manufacturing  588  84.5  15,778  30.4  570,896  27.7  
+Wholesale Trade  484  89.5  4,393  69.0  190,667  66.1  
+Transportation and Warehousing  439  92.2  3,122  47.3  113,643  42.7  
+Finance and Insurance  386  85.2  3,744  64.1  164,119  58.3  
+Administrative, Support, and Waste Management  339  90.9  3,311  34.4  96,425  40.1  
+Real Estate and Rental and Leasing  292  94.5  1,538  86.7  42,552  80.5  
+Arts, Entertainment, and Recreation  133  98.5  936  91.1  17,271  93.3  
+Agriculture, Forestry, Fishing and Hunting  123  98.4  739  86.2  22,792  88.0  
+Information  75  78.9  967  46.6  50,408  47.2  
+Educational Services  56  96.6  708  39.2  13,884  39.5  
+Mining, Quarrying, and Oil and Gas Extraction  36  83.7  785  45.8  45,859  37.9  
+Management of Companies and Enterprises  34  57.6  406  31.2  25,494  22.0  
+Industries not classified  30  100.0  44  100.0  836  100.0  
+Utilities  20  87.0  502  39.6  36,764  34.5  
+District Total  9,519  94.4  94,866  50.2  3,117,069  48.0  
+
+This small business profile incorporates statisticson self-employment and small employerbusinesses from the 2017 American Community Survey (ACS) and the 2016 Statistics of US Businesses (SUSB), respectively. Small businesses are defined for this profile as firms employing fewer than 500 employees. District lines reflect the 115th Congress. For more information, please visit http://advocacy.sba.gov. 
+graphic
+graphic
+graphic
+Professional, Scientific, and Technical Services  1,581  94.7  18,880  47.1  1,500,762  45.7  
+Retail Trade  1,576  88.3  12,366  33.9  393,521  43.0  
+Other Services (except Public Administration)  1,411  98.4  10,113  85.1  223,912  74.7  
+Health Care and Social Assistance  1,396  94.6  18,908  47.5  884,380  51.2  
+Construction  1,027  97.4  9,577  82.8  402,099  79.3  
+Accommodation and Food Services  887  92.0  14,919  54.2  212,046  53.8  
+Administrative, Support, and Waste Management  574  88.0  6,272  54.9  215,984  58.3  
+Real Estate and Rental and Leasing  530  93.3  2,246  76.8  81,883  72.2  
+Manufacturing  515  84.8  10,653  27.0  475,119  22.5  
+Wholesale Trade  503  80.1  5,668  58.8  276,484  51.5  
+Finance and Insurance  420  82.8  2,992  44.1  155,338  40.5  
+Transportation and Warehousing  234  81.0  1,897  35.6  77,900  30.7  
+Arts, Entertainment, and Recreation  164  97.0  2,226  76.2  33,140  75.2  
+Educational Services  134  91.8  1,992  83.8  64,275  74.7  
+Information  109  75.7  1,274  23.4  71,470  25.5  
+Agriculture, Forestry, Fishing and Hunting  35  94.6  173  89.6  6,705  88.0  
+Management of Companies and Enterprises  27  46.6  380  22.4  20,672  15.9  
+Industries not classified  24  100.0  48  100.0  728  100.0  
+Mining, Quarrying, and Oil and Gas Extraction  5  71.4  46  35.7  1,905  27.2  
+Utilities  4  50.0  101  72.1  5,622  57.7  
+District Total  11,103  92.1  120,731  47.2  5,103,945  44.5  
+
+This small business profile incorporates statisticson self-employment and small employerbusinesses from the 2017 American Community Survey (ACS) and the 2016 Statistics of US Businesses (SUSB), respectively. Small businesses are defined for this profile as firms employing fewer than 500 employees. District lines reflect the 115th Congress. For more information, please visit http://advocacy.sba.gov. 
+graphic
+Alabama Congressional District 6  
+12,124 Small Employer Businesses  122,950 Small Business Employees  $5.4 billion Small Business Payroll  
+92.4%  of Employer Businesses  48.9%  of Employees  45.6%  of Payroll  
+
+graphic
+graphic
+Professional, Scientific, and Technical Services  1,594  96.0  10,125  77.6  646,034  79.1  
+Other Services (except Public Administration)  1,545  97.8  12,546  83.7  326,425  79.9  
+Retail Trade  1,519  85.2  12,568  30.6  411,573  38.3  
+Construction  1,330  97.9  12,492  81.9  738,254  81.1  
+Health Care and Social Assistance  1,291  95.1  16,435  53.0  810,394  52.7  
+Accommodation and Food Services  838  90.0  14,905  53.7  247,300  53.2  
+Wholesale Trade  833  86.7  7,317  57.6  454,139  52.0  
+Finance and Insurance  705  84.0  4,687  22.6  327,265  18.5  
+Administrative, Support, and Waste Management  689  90.4  9,071  46.4  346,458  53.0  
+Real Estate and Rental and Leasing  507  90.2  2,419  64.7  153,052  65.8  
+Manufacturing  414  88.3  8,393  49.3  406,465  46.5  
+Transportation and Warehousing  284  90.4  2,495  65.0  109,634  62.9  
+Arts, Entertainment, and Recreation  203  94.4  3,075  65.3  82,569  79.9  
+Educational Services  145  94.2  1,796  34.0  40,053  23.2  
+Information  120  75.9  2,638  24.0  161,929  22.3  
+Agriculture, Forestry, Fishing and Hunting  59  98.3  579  97.0  24,785  95.0  
+Management of Companies and Enterprises  58  47.5  1,004  20.0  75,363  12.6  
+Industries not classified  37  100.0  46  100.0  1,090  100.0  
+Mining, Quarrying, and Oil and Gas Extraction  16  72.7  285  21.8  15,665  16.8  
+Utilities  11  78.6  74  - 4,445  - 
+District Total  12,124  92.4  122,950  48.9  5,382,892  45.6  
+
+This small business profile incorporates statisticson self-employment and small employerbusinesses from the 2017 American Community Survey (ACS) and the 2016 Statistics of US Businesses (SUSB), respectively. Small businesses are defined for this profile as firms employing fewer than 500 employees. District lines reflect the 115th Congress. For more information, please visit http://advocacy.sba.gov. 
+graphic
+Alabama Congressional District 7  
+10,211 Small Employer Businesses  125,238 Small Business Employees  $5.0 billion Small Business Payroll  
+91.7%  of Employer Businesses  43.6%  of Employees  36.8%  of Payroll  
+
+graphic
+graphic
+Retail Trade  1,655  90.8  13,177  46.9  396,239  54.0  
+Other Services (except Public Administration)  1,499  97.6  10,856  69.8  267,823  55.0  
+Professional, Scientific, and Technical Services  1,181  96.4  9,268  82.2  639,433  81.5  
+Health Care and Social Assistance  1,063  92.8  17,880  35.4  776,970  28.5  
+Accommodation and Food Services  874  90.7  15,031  58.6  231,848  57.7  
+Construction  834  96.5  10,973  70.5  577,840  68.8  
+Wholesale Trade  609  81.3  9,290  56.1  497,196  53.0  
+Manufacturing  479  83.3  11,754  25.0  514,978  18.8  
+Administrative, Support, and Waste Management  400  83.2  6,530  32.9  192,960  37.8  
+Real Estate and Rental and Leasing  382  90.7  3,417  63.6  150,961  65.2  
+Finance and Insurance  342  82.4  3,799  25.4  213,336  18.8  
+Transportation and Warehousing  340  79.3  4,682  29.9  186,325  28.3  
+Arts, Entertainment, and Recreation  150  97.4  1,477  79.7  35,139  85.5  
+Agriculture, Forestry, Fishing and Hunting  147  97.4  1,274  93.5  52,793  90.6  
+Educational Services  125  96.2  3,728  86.2  95,482  83.4  
+Information  106  74.6  1,142  22.3  62,697  22.8  
+Management of Companies and Enterprises  39  47.6  477  13.4  29,127  8.8  
+Industries not classified  22  100.0  35  100.0  495  100.0  
+Mining, Quarrying, and Oil and Gas Extraction  22  73.3  331  57.3  21,380  57.0  
+Utilities  11  78.6  117  - 9,763  - 
+District Total  10,211  91.7  125,238  43.6  4,952,785  36.8  
+
+This small business profile incorporates statisticson self-employment and small employerbusinesses from the 2017 American Community Survey (ACS) and the 2016 Statistics of US Businesses (SUSB), respectively. Small businesses are defined for this profile as firms employing fewer than 500 employees. District lines reflect the 115th Congress. For more information, please visit http://advocacy.sba.gov. 
+
