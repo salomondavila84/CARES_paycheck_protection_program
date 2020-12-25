@@ -1,10 +1,10 @@
 /*
-Using converted PDF files from SBA state profiles of 2019 as text, the files were processed as
-unstructured data in order to iterate searching for ... Data is extracted from the text files
-extract specific aggregate lines of each state's congressional district
-
-Creating a Delta Table as an external data source each file is processed to update table
-then saved  in parquet format.
+Using Small Business Administration (SBA) 2019 Congressional profiles text files converted from PDF files
+processed as unstructured data to iterate searching for yearly totals. Metrics of Total Small Businesses,
+Total Employment and Total Payroll is extracted from the text files. Values of Congressional Districts and
+aggregations of state and national provide base values to find percentage of small businesses and job retained
+by Cares Act Paycheck Protect Program. The results is a Parquet file within a Delta Lake table within an external
+data source updated with processed files and used for downstream processing.
  */
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.types._
@@ -78,9 +78,7 @@ stateBusProfiles.write.option("path", path+"/sba_profiles.parquet").mode(SaveMod
 //  1. Load the text file into Spark Dataframe per state
 //  2. Filter all rows that contain the words "District Total" per Congressional District
 //  3. Split each row into columns in preparation to insert into Delta Table
-//  4. Load Delta Table into Spark Dataframe for processing
-//  find the total
-//  for each Congressional District below for processing in iteration
+//  4. Load Delta Table into Spark Dataframe for analysis
 
 for (file <- files) {
   val df = spark.read.text(file.toString)
@@ -97,11 +95,11 @@ for (file <- files) {
     .withColumn("state", lit(file.toString.substring(87, 89)))
     .withColumn("CD",  monotonically_increasing_id()+1)
 
-  // insertInto empty Delta Table and append to parquet file
+  // insertInto empty Delta Lake table and append to parquet file
   stateCD.write.mode(SaveMode.Append).insertInto("sbaProfilesTable")
 }
 
-// Loading Delta Table into dataframe using sql
+// Loading Delta Lake table into dataframe using sql
 val sbaStateProfilesDF = spark.sql("select * from sbaProfilesTable")
 
 // Aggregation of Congressional Districts, Small Businesses, Employment and
