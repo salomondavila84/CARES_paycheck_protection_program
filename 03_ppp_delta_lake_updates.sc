@@ -191,11 +191,10 @@ deltaTable.history().show(false)
 |1      |2020-12-26 22:47:18.823|null  |null    |UPDATE   |[predicate -> ((CD#997 = JPMorgan Chase Bank, National Association) && (BusinessName#988 = "STUDIO ""A"" ARCHITECTURE))]|null|null    |null     |0          |null          |false        |
 |0      |2020-12-25 01:19:03.225|null  |null    |WRITE    |[mode -> ErrorIfExists, partitionBy -> []]                                                                              |null|null    |null     |null       |null          |true         |
 +-------+-----------------------+------+--------+---------+------------------------------------------------------------------------------------------------------------------------+----+--------+---------+-----------+--------------+-------------+
+Table size up to 141 MB
  */
 
-
 // Updating the dataframe with the correct version
-
 val ppp_DF = spark.read.format("delta").option("versionAsOf", 9).load(path)
 
 // ToDo: Sample data exploration with updated dataframe
