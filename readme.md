@@ -10,7 +10,11 @@
 
 ### Results
 
-<iframe src="https://scopewave.clicdata.com/v/inOUN6e0IuDN"
-style="width:100%; height:300px;"></iframe>
+<!-- blank line -->
+<figure>
+    <iframe src="https://scopewave.clicdata.com/v/inOUN6e0IuDN"
+    style="width:100%; height:300px;"></iframe>
+</figure>
+<!-- blank line -->
 
 ### Conclusion
