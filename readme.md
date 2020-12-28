@@ -9,12 +9,8 @@
 ### Tools
 
 ### Results
+[Small Business Served by PPP](https://scopewave.clicdata.com/v/inOUN6e0IuDN)
 
-<!-- blank line -->
-<figure>
-    <iframe src="https://scopewave.clicdata.com/v/inOUN6e0IuDN"
-    style="width:100%; height:300px;"></iframe>
-</figure>
-<!-- blank line -->
+![Image](images/Percentage_of_Small_Businesses_Served_by_CARES_PPP_in_States.png)
 
 ### Conclusion
