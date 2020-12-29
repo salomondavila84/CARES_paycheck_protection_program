@@ -63,6 +63,7 @@ Inspection of Congressional Districts yields:
  - Includes districts of :
     - American Simoa (AS), Puerto Rico (PR), Guam (GU), and District of Columbia (DC)
  - Non-identified districts only states and hyphen
+ - CD with an identifier of "- 00" need to be explored
  - Mislabeled districts [JPMorgan Chase Bank, National Association]
  */
 
@@ -75,6 +76,37 @@ val non_cd = ppp_DF
 non_cd.head()
 
 println("Total records with no Congressional District defined: %d".format(non_cd.count()))
+
+// Counting loans with CD identified with "- 00"
+val double_O_cds = ppp_DF
+  .select("*")
+  .where($"CD".contains(" - 00"))
+  .groupBy($"CD")
+  .agg(
+    count(lit(1)).as("LoanCounts"),
+    sum($"JobsRetained").as("JobsRetained")
+  )
+  .orderBy($"CD".asc)
+
+double_O_cds.show(33, false)
+
+/*
++-------+----------+------------+
+|CD     |LoanCounts|JobsRetained|
++-------+----------+------------+
+|AK - 00|11166     |114123      |
+|DC - 00|12480     |165493      |
+|DE - 00|12243     |133185      |
+|MT - 00|23007     |214797      |
+|ND - 00|19645     |175759      |
+|PR - 00|37815     |385512      |
+|SD - 00|21851     |177119      |
+|VT - 00|11923     |113810      |
+|WY - 00|12549     |105302      |
++-------+----------+------------+
+States above only have one (1) Congressional District and labeled as - 00
+ */
+
 
 // CDs with wrong text of "JPMorgan Chase Bank, National Association"
 val fix_cd = ppp_DF
@@ -174,12 +206,80 @@ deltaTable
     set = Map("NAICSCode" -> expr("'999990'"))
   )
 
+// ToDo: Update Congressional Districts identifier from "- 00" to "- 01"
+/*
+AK - 00, DC - 00, DE - 00, MT - 00, ND - 00, PR - 00, SD - 00, VT - 00, WY - 00
+ */
+
+deltaTable
+  .update(
+    condition = expr(" CD = 'AK - 00' "),
+    set = Map("CD" -> expr("'AK - 01'"))
+  )
+
+deltaTable
+  .update(
+    condition = expr(" CD = 'DC - 00' "),
+    set = Map("CD" -> expr("'DC - 01'"))
+  )
+
+deltaTable
+  .update(
+    condition = expr(" CD = 'DE - 00' "),
+    set = Map("CD" -> expr("'DE - 01'"))
+  )
+
+deltaTable
+  .update(
+    condition = expr(" CD = 'MT - 00' "),
+    set = Map("CD" -> expr("'MT - 01'"))
+  )
+
+deltaTable
+  .update(
+    condition = expr(" CD = 'ND - 00' "),
+    set = Map("CD" -> expr("'ND - 01'"))
+  )
+
+deltaTable
+  .update(
+    condition = expr(" CD = 'PR - 00' "),
+    set = Map("CD" -> expr("'PR - 01'"))
+  )
+
+deltaTable
+  .update(
+    condition = expr(" CD = 'SD - 00' "),
+    set = Map("CD" -> expr("'SD - 01'"))
+  )
+
+deltaTable
+  .update(
+    condition = expr(" CD = 'VT - 00' "),
+    set = Map("CD" -> expr("'VT - 01'"))
+  )
+
+deltaTable
+  .update(
+    condition = expr(" CD = 'WY - 00' "),
+    set = Map("CD" -> expr("'WY - 01'"))
+  )
+
 // Showing updates
 deltaTable.history().show(false)
 /*
 +-------+-----------------------+------+--------+---------+------------------------------------------------------------------------------------------------------------------------+----+--------+---------+-----------+--------------+-------------+
 |version|timestamp              |userId|userName|operation|operationParameters                                                                                                     |job |notebook|clusterId|readVersion|isolationLevel|isBlindAppend|
 +-------+-----------------------+------+--------+---------+------------------------------------------------------------------------------------------------------------------------+----+--------+---------+-----------+--------------+-------------+
+|18     |2020-12-28 17:36:07.022|null  |null    |UPDATE   |[predicate -> (CD#691 = WY - 00)]                                                                                       |null|null    |null     |17         |null          |false        |
+|17     |2020-12-28 17:35:52.653|null  |null    |UPDATE   |[predicate -> (CD#691 = VT - 00)]                                                                                       |null|null    |null     |16         |null          |false        |
+|16     |2020-12-28 17:35:41.405|null  |null    |UPDATE   |[predicate -> (CD#691 = SD - 00)]                                                                                       |null|null    |null     |15         |null          |false        |
+|15     |2020-12-28 17:35:30.458|null  |null    |UPDATE   |[predicate -> (CD#691 = PR - 00)]                                                                                       |null|null    |null     |14         |null          |false        |
+|14     |2020-12-28 17:35:21.435|null  |null    |UPDATE   |[predicate -> (CD#691 = ND - 00)]                                                                                       |null|null    |null     |13         |null          |false        |
+|13     |2020-12-28 17:35:14.366|null  |null    |UPDATE   |[predicate -> (CD#691 = MT - 00)]                                                                                       |null|null    |null     |12         |null          |false        |
+|12     |2020-12-28 17:35:06.809|null  |null    |UPDATE   |[predicate -> (CD#691 = DE - 00)]                                                                                       |null|null    |null     |11         |null          |false        |
+|11     |2020-12-28 17:35:02.978|null  |null    |UPDATE   |[predicate -> (CD#691 = DC - 00)]                                                                                       |null|null    |null     |10         |null          |false        |
+|10     |2020-12-28 17:34:51.676|null  |null    |UPDATE   |[predicate -> (CD#691 = AK - 00)]                                                                                       |null|null    |null     |9          |null          |false        |
 |9      |2020-12-26 22:51:30.349|null  |null    |UPDATE   |[predicate -> isnull(NAICSCode#993)]                                                                                    |null|null    |null     |8          |null          |false        |
 |8      |2020-12-26 22:50:51.867|null  |null    |UPDATE   |[predicate -> ((CD#997 = JPMorgan Chase Bank, National Association) && (BusinessName#988 = "BEER WHOLESALE ""JR.""))]   |null|null    |null     |7          |null          |false        |
 |7      |2020-12-26 22:50:23.848|null  |null    |UPDATE   |[predicate -> ((CD#997 = JPMorgan Chase Bank, National Association) && (BusinessName#988 = "BEER WHOLESALE ""JR.""))]   |null|null    |null     |6          |null          |false        |
@@ -191,7 +291,7 @@ deltaTable.history().show(false)
 |1      |2020-12-26 22:47:18.823|null  |null    |UPDATE   |[predicate -> ((CD#997 = JPMorgan Chase Bank, National Association) && (BusinessName#988 = "STUDIO ""A"" ARCHITECTURE))]|null|null    |null     |0          |null          |false        |
 |0      |2020-12-25 01:19:03.225|null  |null    |WRITE    |[mode -> ErrorIfExists, partitionBy -> []]                                                                              |null|null    |null     |null       |null          |true         |
 +-------+-----------------------+------+--------+---------+------------------------------------------------------------------------------------------------------------------------+----+--------+---------+-----------+--------------+-------------+
-Table size up to 141 MB
+Table size up to 270 MB
  */
 
 // Updating the dataframe with the correct version
