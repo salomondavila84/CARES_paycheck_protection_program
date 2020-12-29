@@ -86,7 +86,7 @@ val path = file.getAbsolutePath // getCanonicalPath
 
 // Loading Delta Lake table in Parquet format with latest version
 println("Reading the table")
-val ppp_DF = spark.read.format("delta").option("versionAsOf", 9).load(path)
+val ppp_DF = spark.read.format("delta").option("versionAsOf", 18).load(path)
 
 // Verification of dataframe
 ppp_DF.show(5)
