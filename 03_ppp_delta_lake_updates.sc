@@ -295,7 +295,7 @@ Table size up to 270 MB
  */
 
 // Updating the dataframe with the correct version
-val ppp_DF = spark.read.format("delta").option("versionAsOf", 9).load(path)
+val ppp_DF = spark.read.format("delta").option("versionAsOf", 18).load(path)
 
 // ToDo: Sample data exploration with updated dataframe
 
