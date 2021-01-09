@@ -1,5 +1,7 @@
 ## Cares Act Paycheck Protection Program Loan Analysis
 
+JobRetained was changed to JobsReported
+
 ### Introduction
 Total loan counts: 4,885,388
 
