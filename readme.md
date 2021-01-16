@@ -1,11 +1,21 @@
 ## Cares Act Paycheck Protection Program Loan Analysis
 
-JobRetained was changed to JobsReported
+This analysis was performed on the SBA CARES Paycheck Protection Program approved for $350 Billion dollars in efforts 
+to sustain small businesses (fewer than 500 employees) during the economic turndown due to the COVID 19 pandemic. 
+
+With 
+the goal of sustaining payroll costs and retaining jobs, the study below uses [SBA Profiles 2019](https://advocacy.sba.gov/2019/04/24/2019-small-business-profiles-for-the-states-and-territories/)
+data of employees for small businesses to assess the service across Congressional Districts and states.
+
+Note that the original dataset contained the element of JobRetained which was renamed to JobsReported.
+
+[SBA Paycheck Protection Program Loan Level Data](https://home.treasury.gov/policy-issues/cares-act/assistance-for-small-businesses/sba-paycheck-protection-program-loan-level-data)
 
 ### Introduction
-Total loan counts: 4,885,388
-
-Total jobs retained: 51,125,891
+The SBA Paycheck Protection Program (SBA PPP) dataset contained exaxt loan amount for those under $150k but only the range
+of loan amount for those above $150. The opposite was true for the business names.
+- Total loan counts: 4,885,388
+- Total jobs retained: 51,125,891
 
 
 Loan Range           |Loan Counts|Jobs Retained|Average Jobs Retained
@@ -30,8 +40,13 @@ LoanCounts|JobsRetained|AverageJobsRetained
 ----------|------------|-------------------
 661218    |31456467    |47.6  
 
-
-
+### SBA PPP Data by State
+#### Total Loan Counts and JobsRetained (JobReported)
+![](images/CARES_Paycheck_Protection_Program_-_State_Totals.png)
+#### SBA PPP Ratios of Small Businesses Served per 2019 SBA Profiles
+![](images/CARES_Paycheck_Protection_Program_-_State_Businesses_Ratios.png)
+#### SBA PPP Ratios of JobsRetained per jobs per 2019 SBA Profiles
+![](images/CARES_Paycheck_Protection_Program_-_State_JobsRetained_Ratios.png)
 ### Loan Counts by NAICS Codes
 
 NAICS Code|Loan Counts|Jobs Retained|Average Jobs Retained|Industry
@@ -83,3 +98,8 @@ NAICS Code|Loan Counts|Jobs Retained|Average Jobs Retained|Industry
 [Small Businesses Served by Congressional District](https://scopewave.clicdata.com/v/46kPUItkLuBL)
 ![](images/CARES_Paycheck_Protection_Program_-_Congressional_Districts_Small_Businesses_Served.png)
 ### Conclusion
+
+
+### Future Changes
+- Compare with 2020 SBA profiles
+- Analyze the payroll totals to know loan amount per Congressional District and state
