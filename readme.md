@@ -48,6 +48,7 @@ LoanCounts|JobsRetained|AverageJobsRetained
 #### SBA PPP Ratios of JobsRetained per jobs per 2019 SBA Profiles
 ![](images/CARES_Paycheck_Protection_Program_-_State_JobsRetained_Ratios.png)
 ### Loan Counts by NAICS Codes
+- [NAICS codes](https://www.bls.gov/oes/current/oessrci.htm)
 
 NAICS Code|Loan Counts|Jobs Retained|Average Jobs Retained|Industry
 ---------|----------|------------|-------------------|----
