@@ -47,6 +47,14 @@ ppp_DF
   .withColumn("NoJobLoanPercentage", $"NoJobLoans" / $"TotalLoans")
   .show()
 
+/*
++----------+----------+-------------------+
+|TotalLoans|NoJobLoans|NoJobLoanPercentage|
++----------+----------+-------------------+
+|   4885388|    878268| 0.1797744621307458|
++----------+----------+-------------------+
+ */
+
 // ToDo: Is there an NAICS industry that is represented in these null jobs retained
 val noJobsRetained = ppp_DF
   .select($"LoanRange", $"LoanAmount", $"BusinessName", $"State", $"NAICSCode", $"JobsRetained", $"CD")
