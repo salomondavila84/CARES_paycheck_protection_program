@@ -3,7 +3,7 @@
 
 import org.apache.spark.sql.SparkSession
 import org.apache.log4j.{Level, Logger}
-import org.apache.spark.sql.functions.{count, lit, mean, sum, udf}
+import org.apache.spark.sql.functions.{count, lit, mean, sum, udf, when}
 
 import java.io.File
 
@@ -37,13 +37,22 @@ val ppp_DF = spark.read.format("delta").option("versionAsOf", 18).load(path)
 // Verification of dataframe
 ppp_DF.show(5)
 
+// Percentage of no job loans?
+ppp_DF
+  .select("*")
+  .agg(
+    count(lit(1)).as("TotalLoans"),
+    count(when(ppp_DF("JobsRetained") === 0, lit(1))).as("NoJobLoans")
+  )
+  .withColumn("NoJobLoanPercentage", $"NoJobLoans" / $"TotalLoans")
+  .show()
 
 // ToDo: Is there an NAICS industry that is represented in these null jobs retained
 val noJobsRetained = ppp_DF
   .select($"LoanRange", $"LoanAmount", $"BusinessName", $"State", $"NAICSCode", $"JobsRetained", $"CD")
   .where($"JobsRetained" === 0)
 
-// How many loans in the ranges were not jobs retained?
+// How many no jobs retained loans in the ranges were not jobs retained?
 noJobsRetained
   .groupBy($"LoanRange")
   .count()
@@ -63,6 +72,14 @@ noJobsRetained
 |f $0-149,999        |788840     |
 +--------------------+-----------+
  */
+
+// Which State had most amount of loans with no jobs retained?
+noJobsRetained
+  .groupBy($"State")
+  .count()
+  .withColumnRenamed("count", "NoJobsLoans")
+  .orderBy($"NoJobsLoans".desc)
+  .show(10,false)
 
 // Which industries sustained the most amount of loans with no jobs retained?
 noJobsRetained
@@ -170,5 +187,15 @@ noJobsRetained
 |VA - 02|4420       |1.6805420359500006E8|
 +-------+-----------+--------------------+
  */
+
+// Of known loan amounts ($0-149,999) what was the total loan amount with no jobs retained?
+noJobsRetained
+  .select($"LoanRange", $"LoanAmount")
+  .where($"LoanRange" === "f $0-149,999")
+  .agg(
+    count(lit(1)).as("NoJobsLoans"),
+    sum($"LoanAmount").as("SumLoanAmount")
+  )
+  .show(false)
 
 spark.stop()
